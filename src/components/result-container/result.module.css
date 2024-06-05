@@ -1,0 +1,35 @@
+.result{
+    width: 375px;
+    height:356px;
+    border-radius: 0 0 32px 32px ;
+    background: linear-gradient(180deg, rgba(119,85,255,1) 0%,  rgba(47,44,233,1) 100%);
+    color: #CAC9FF;
+    font-size: 16px;
+    text-align: center;
+}
+.circle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(77,33,201,1) 0%, rgba(37,33,201,0));
+    margin: 24px auto;
+    
+
+}
+.number{
+    font-size: 56px;
+    color: white;
+    font-weight: 600;
+    padding-top: 25px;
+
+}
+.titleSecondary{
+    color: white;
+    font-size: 24px;
+}
+.text{
+    width: 260px;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}

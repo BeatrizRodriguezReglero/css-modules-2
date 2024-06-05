@@ -1,0 +1,45 @@
+.summaryCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 315px;
+    height: 56px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    
+    
+}
+.image{
+    width: 20px;
+    height: 20px;
+}
+
+.red{
+    color: #FF5555;
+}
+.yellow{
+    color: #FFB21E;
+}
+.green{
+    color: #00BB8F;
+}
+.blue{
+    color: #1125D6;
+}
+
+.bg_red{
+    background-color: hwb(0 95% 0%);
+}
+
+.bg_yellow{
+    background-color: hwb(39 95% 0%);
+}
+
+.bg_green{
+    background-color: hwb(166 95% 0%);
+}
+
+.bg_blue{
+    background-color: hwb(234 95% 0%);
+}
