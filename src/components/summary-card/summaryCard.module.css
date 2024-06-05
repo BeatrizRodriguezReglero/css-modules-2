@@ -2,17 +2,30 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 315px;
     height: 56px;
     border-radius: 12px;
     margin-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     
     
+}
+@media screen and (min-width: 768px) {
+	.summaryCard{
+       
+        width: 288px;
+        height: 56px;
+        
+        
+        
+    }
 }
 .image{
     width: 20px;
     height: 20px;
+    margin-right: 12px;
 }
 
 .red{
@@ -42,4 +55,14 @@
 
 .bg_blue{
     background-color: hwb(234 95% 0%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.total{
+    color: #303b5981;
+    margin-left: 8px;
 }

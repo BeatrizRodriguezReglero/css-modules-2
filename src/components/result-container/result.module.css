@@ -7,14 +7,39 @@
     font-size: 16px;
     text-align: center;
 }
+@media screen and (min-width: 768px) {
+	.result{
+        width: 368px;
+        height: 512px;
+        border-radius: 32px 32px 32px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 54px;
+  
+        
+    }
+}
 .circle{
     width: 140px;
     height: 140px;
     border-radius: 50%;
     background: linear-gradient(180deg, rgba(77,33,201,1) 0%, rgba(37,33,201,0));
+
     margin: 24px auto;
+    margin-top: 0px;
     
 
+}
+@media screen and (min-width: 768px) {
+	.circle{
+        width: 200px;
+        height: 200px;
+    
+        margin-bottom: 28px;
+        
+    
+    }
 }
 .number{
     font-size: 56px;
@@ -23,13 +48,36 @@
     padding-top: 25px;
 
 }
+@media screen and (min-width: 768px) {
+	.number{
+        font-size: 72px;
+        color: white;
+        font-weight: 600;
+        padding-top: 50px;
+    
+    }
+}
+
 .titleSecondary{
     color: white;
     font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+	.titleSecondary{
+        
+        font-size: 32px;
+    }
 }
 .text{
     width: 260px;
     margin-top: 8px;
     margin-right: auto;
     margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+	.text{
+        margin-top: 14px;
+        font-size: 18px;
+        margin-bottom: 55px;
+    }
 }
